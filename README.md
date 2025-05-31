@@ -52,6 +52,5 @@ Plan the deployment: terraform plan
 Apply the changes: terraform apply
 
 ## Enhancements
-Add NAT Gateways to allow private subnet resources to access the internet but because it is an expensive features, we can go without it
-Add Elastic ip as well to to ensure stable static public IP addresses for resources like NAT Gateways
+Add NAT Gateways to allow private subnet resources to access the internet but because it is an expensive feature, we can do without it and also Elastic ip as well to to ensure stable static public IP addresses for resources like NAT Gateways
 
