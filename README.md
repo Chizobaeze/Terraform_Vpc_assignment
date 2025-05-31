@@ -20,11 +20,11 @@ Private subnet (192.168.4.0/24) - For protected resources
 Internet Gateway - Enables communication with the internet
 Security Groups - Controlling inbound/outbound traffic
 
-# How Resources Connect
+## How Resources Connect
 Users connect to resources in the public subnet of the VPC through the Internet Gateway, which allows access from the internet.
 Resources in the public subnet can talk to resources in the private subnet inside the same VPC.
 
-# Infrastructure as Code
+## Infrastructure as Code
 The entire architecture is defined using Terraform, ensuring:
 
 Version-controlled infrastructure
@@ -33,7 +33,7 @@ Easy modifications and extensions
 Documentation through code
 
 
-# Key Terraform Resources
+## Key Terraform Resources
 aws_vpc - Defines the VPCs
 aws_subnet - Defines the subnets
 aws_internet_gateway - Provides internet access
@@ -41,7 +41,7 @@ aws_security_group - Defines security rules
 aws_route_table - Controls routing between subnets and the internet
 
 
-# Getting Started
+## Getting Started
 To deploy this architecture:
 
 Install Terraform
@@ -51,8 +51,8 @@ Initialize Terraform: terraform init
 Plan the deployment: terraform plan
 Apply the changes: terraform apply
 
-# Enhancements
+## Enhancements
 Add NAT Gateways to allow private subnet resources to access the internet but because it is an expensive features, we can go without it
 
-Add Elastic ip as well to to ensure stable public IP addresses for resources like NAT Gateways
+Add Elastic ip as well to to ensure stable static public IP addresses for resources like NAT Gateways
 
