@@ -3,7 +3,7 @@
 
 
 ## Background Story
-As a aspiring Data engineer,my menthor gave a task to use terraform to create an infrastructure for  vpc(virtual private cloud) on aws. the assignment wasn’t just about infrastructure — it was about understanding how modern data systems are built from the ground up. My goal was to create a secure, scalable environment that mimicked a real-world cloud setup. Using Terraform, I defined infrastructure as code, with cidr block, a public subnet, private subnet, routes, internet gateway and a dedicated security group. the setup ensured that public services had internet access, while private components remained protected.
+As a aspiring Data engineer,my mentor gave a task to use terraform to create an infrastructure for vpc(virtual private cloud) on aws. the assignment wasn’t just about infrastructure — it was about understanding how modern data systems are built from the ground up. My goal was to create a secure, scalable environment that mimicked a real-world cloud setup. Using Terraform, I defined infrastructure as code, with cidr block, a public subnet, private subnet, routes, internet gateway and a dedicated security group. the setup ensured that public services had internet access, while private components remained protected.
 
 
 ## Architecture Overview
@@ -53,6 +53,5 @@ Apply the changes: terraform apply
 
 ## Enhancements
 Add NAT Gateways to allow private subnet resources to access the internet but because it is an expensive features, we can go without it
-
 Add Elastic ip as well to to ensure stable static public IP addresses for resources like NAT Gateways
 
