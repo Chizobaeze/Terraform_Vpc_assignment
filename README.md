@@ -7,5 +7,6 @@ As a aspiring Data engineer,my menthor gave a task to use terraform to create an
 
 
 ## Architecture Overview
+![Image Alt](
 
 
