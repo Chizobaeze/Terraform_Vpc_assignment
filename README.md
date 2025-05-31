@@ -45,11 +45,11 @@ aws_route_table - Controls routing between subnets and the internet
 To deploy this architecture:
 
 Install Terraform
-Clone the repository
-Configure AWS credentials
-Initialize Terraform: terraform init
-Plan the deployment: terraform plan
-Apply the changes: terraform apply
+Clone the repository.
+Configure AWS credentials.
+Initialize Terraform: terraform init.
+Plan the deployment: terraform plan.
+Apply the changes: terraform apply.
 
 ## Enhancements
 Add NAT Gateways to allow private subnet resources to access the internet but because it is an expensive feature, we can do without it and also Elastic ip as well to to ensure stable static public IP addresses for resources like NAT Gateways
