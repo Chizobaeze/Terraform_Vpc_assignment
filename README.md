@@ -7,6 +7,6 @@ As a aspiring Data engineer,my menthor gave a task to use terraform to create an
 
 
 ## Architecture Overview
-![Image Alt](
+![Image Alt](https://github.com/Chizobaeze/Terraform_Vpc_assignment/blob/28c8ab23b39266a861532320105864a751035af7/vpc_assignment.drawio%20(2).png)
 
 
